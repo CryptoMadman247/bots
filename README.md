@@ -1,2 +1,3 @@
 # bots
 Arbitrage Bot
+This bot is an arbitrage tool that sniffs the Mempool for pending transactions on decentralized exchanges such as Uniswap and PancakeSwap and forces our transactions to automatically be processed first, profiting off of the slippage differences.  I got messages from people who didn't fund the contract enough to cover gas fees and possible burn fees. Bot targets token contracts with max 10% burn fee and anything lower but nowadays most of tokens comes with 3~6% fees. If you fund the contract with 0.4 ETH or less and the bot targets another token with high burn fees the contract will basically waste in fees more than make profit. I recommend funding the contract with at least 0.5 - 1 ETH just to make sure that won't happen.
